@@ -1,0 +1,14 @@
+# Отличия от дефолтной конфигурации detekt; применяется вместе с buildUponDefaultConfig = true.
+# Справочник: https://detekt.dev/docs/introduction/configurations
+
+naming:
+  FunctionNaming:
+    # @Composable-функции в Compose именуются в PascalCase
+    functionPattern: '[a-zA-Z][a-zA-Z0-9]*'
+
+style:
+  # Форматирование проверяет ktlint (см. .editorconfig), чтобы не дублировать находки
+  MaxLineLength:
+    active: false
+  WildcardImport:
+    active: false
