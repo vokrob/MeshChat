@@ -22,7 +22,7 @@
 
 ## Этап 1. Каркас приложения
 
-11. [ ] Разбить проект на модули: `app`, `core:model`, `core:mesh`, `core:crypto`, `core:database`, `core:ui`
+11. [x] Разбить проект на модули: `app`, `core:model`, `core:mesh`, `core:crypto`, `core:database`, `core:ui`
 12. [ ] Создать модули `feature:chat`, `feature:peers`, `feature:onboarding`
 13. [ ] Вынести общие настройки Gradle в convention-плагины (или `buildSrc`)
 14. [ ] Подключить Hilt, создать `@HiltAndroidApp` Application

@@ -24,3 +24,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "MeshChat"
 include(":app")
+include(":core:model")
+include(":core:mesh")
+include(":core:crypto")
+include(":core:database")
+include(":core:ui")

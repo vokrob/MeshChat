@@ -1,4 +1,4 @@
-package io.github.vokrob.meshchat.ui.theme
+package io.github.vokrob.meshchat.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
