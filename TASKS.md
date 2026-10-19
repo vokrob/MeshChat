@@ -23,18 +23,18 @@
 ## Этап 1. Каркас приложения
 
 11. [x] Разбить проект на модули: `app`, `core:model`, `core:mesh`, `core:crypto`, `core:database`, `core:ui`
-12. [ ] Создать модули `feature:chat`, `feature:peers`, `feature:onboarding`
-13. [ ] Вынести общие настройки Gradle в convention-плагины (или `buildSrc`)
-14. [ ] Подключить Hilt, создать `@HiltAndroidApp` Application
-15. [ ] Подключить KSP вместо kapt
-16. [ ] Подключить Timber, в release-сборке отключить логирование
-17. [ ] Создать тему Material 3 в `core:ui` (цвета, типографика, shapes), тёмная тема
-18. [ ] Вынести строки в `strings.xml` (ru + en)
-19. [ ] Настроить Navigation Compose: граф с экранами-заглушками (Onboarding, Chats, Chat, Peers, Settings)
-20. [ ] Добавить нижнюю навигацию или drawer между Chats / Peers / Settings
-21. [ ] Добавить qualifier'ы диспетчеров (`@IoDispatcher`, `@DefaultDispatcher`) и Hilt-модуль для них
-22. [ ] Написать один тривиальный unit-тест, чтобы убедиться, что тестовая инфраструктура работает
-23. [ ] Задать `android:allowBackup="false"` в манифесте
+12. [x] Создать модули `feature:chat`, `feature:peers`, `feature:onboarding`
+13. [x] Вынести общие настройки Gradle в convention-плагины (или `buildSrc`)
+14. [x] Подключить Hilt, создать `@HiltAndroidApp` Application
+15. [x] Подключить KSP вместо kapt
+16. [x] Подключить Timber, в release-сборке отключить логирование
+17. [x] Создать тему Material 3 в `core:ui` (цвета, типографика, shapes), тёмная тема
+18. [x] Вынести строки в `strings.xml` (ru + en)
+19. [x] Настроить Navigation Compose: граф с экранами-заглушками (Onboarding, Chats, Chat, Peers, Settings)
+20. [x] Добавить нижнюю навигацию или drawer между Chats / Peers / Settings
+21. [x] Добавить qualifier'ы диспетчеров (`@IoDispatcher`, `@DefaultDispatcher`) и Hilt-модуль для них
+22. [x] Написать один тривиальный unit-тест, чтобы убедиться, что тестовая инфраструктура работает
+23. [x] Задать `android:allowBackup="false"` в манифесте
 
 ## Этап 2. Модели и база данных
 

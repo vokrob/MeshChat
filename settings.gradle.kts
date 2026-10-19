@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -24,8 +25,12 @@ dependencyResolutionManagement {
 
 rootProject.name = "MeshChat"
 include(":app")
+include(":core:common")
 include(":core:model")
 include(":core:mesh")
 include(":core:crypto")
 include(":core:database")
 include(":core:ui")
+include(":feature:chat")
+include(":feature:peers")
+include(":feature:onboarding")

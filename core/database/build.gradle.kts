@@ -1,33 +1,7 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.ktlint)
-    alias(libs.plugins.detekt)
+    alias(libs.plugins.meshchat.android.library)
 }
 
 android {
     namespace = "io.github.vokrob.meshchat.core.database"
-    compileSdk {
-        version =
-            release(37) {
-                minorApiLevel = 1
-            }
-    }
-
-    defaultConfig {
-        minSdk = 28
-    }
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-}
-
-ktlint {
-    version = libs.versions.ktlintCli.get()
-}
-
-detekt {
-    buildUponDefaultConfig = true
-    config.setFrom(rootProject.file("config/detekt/detekt.yml"))
 }

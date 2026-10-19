@@ -25,6 +25,7 @@
 ```
 app/                    # Application, MainActivity, навигация, Hilt-граф
 core/
+  common/               # qualifier'ы диспетчеров, общий DI
   model/                # общие модели (PeerId, MessageId, ...)
   mesh/                 # MeshTransport, MeshRouter, формат пакета, дедупликация
   crypto/               # ключи, подписи, шифрование (обёртка над Tink)
@@ -34,7 +35,10 @@ feature/
   chat/                 # список чатов и экран переписки
   peers/                # обнаруженные устройства
   onboarding/           # разрешения, создание профиля и ключей
+build-logic/            # convention-плагины (meshchat.android.library, meshchat.android.compose, ...)
 ```
+
+Общие настройки Gradle (compileSdk/minSdk, Java 11, ktlint, detekt, Compose) живут в convention-плагинах `build-logic`; в `build.gradle.kts` модулей остаются только namespace и специфичные зависимости.
 
 Правила:
 

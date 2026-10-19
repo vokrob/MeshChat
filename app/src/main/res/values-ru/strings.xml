@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MeshChat</string>
+    <string name="settings_title">Настройки</string>
+    <string name="nav_chats">Чаты</string>
+    <string name="nav_peers">Соседи</string>
+    <string name="nav_settings">Настройки</string>
+</resources>

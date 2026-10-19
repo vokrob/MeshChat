@@ -1,0 +1,5 @@
+<resources>
+    <string name="chats_title">Чаты</string>
+    <string name="chats_open_chat">Открыть чат</string>
+    <string name="chat_title">Чат</string>
+</resources>

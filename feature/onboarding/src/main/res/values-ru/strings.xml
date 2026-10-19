@@ -1,0 +1,4 @@
+<resources>
+    <string name="onboarding_title">Добро пожаловать в MeshChat</string>
+    <string name="onboarding_continue">Продолжить</string>
+</resources>

@@ -22,6 +22,7 @@
 ```
 app/                    # Application, MainActivity, навигация, Hilt-граф
 core/
+  common/               # qualifier'ы диспетчеров, общий DI
   model/                # общие модели (PeerId, MessageId, ...)
   mesh/                 # MeshTransport, MeshRouter, формат пакета, дедупликация
   crypto/               # ключи, подписи, шифрование (обёртка над Tink)
